@@ -1,0 +1,37 @@
+{
+  "name": "vitepress-protect-plugin",
+  "version": "1.0.5",
+  "description": "A VitePress plugin to protect content from copying and inspect",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc && tsc --project tsconfig.cjs.json",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vitepress",
+    "plugin",
+    "protect",
+    "content",
+    "copy",
+    "inspect"
+  ],
+  "author": "Cellinlab",
+  "license": "MIT",
+  "peerDependencies": {
+    "vite": "^2.0.0 || ^3.0.0 || ^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "@types/rollup": "^0.54.0",
+    "typescript": "^5.5.3",
+    "vite": "^5.3.3"
+  },
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "require": "./dist/cjs/index.js"
+    }
+  }
+}
