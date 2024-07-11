@@ -77,4 +77,4 @@ This project is [MIT](LICENSE) licensed.
 
 ---
 
-Made with ❤️ by [Your Name](https://github.com/cellinlab)
+Made with ❤️ by [Cellinlab](https://github.com/cellinlab)
